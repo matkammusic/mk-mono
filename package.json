@@ -2,7 +2,7 @@
   "name": "mk-mono",
   "displayName": "MK Mono",
   "description": "Monochrome theme based on glitch's Monochrome, inspired by jesseleite's Noirbuddy",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -12,9 +12,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "MK Mono",
+        "label": "MK Mono Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/mk-mono-color-theme.json"
+        "path": "./themes/mk-mono-dark.json"
+      },
+      {
+        "label": "MK Mono Light",
+        "uiTheme": "vs",
+        "path": "./themes/mk-mono-light.json"
+      },
+      {
+        "label": "MK Mono Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mk-mono-gray.json"
       }
     ]
   },
